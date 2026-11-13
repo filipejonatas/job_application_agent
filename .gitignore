@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+dist/
+build/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Segredos e dados pessoais: nunca versionar
+.env
+.env.*
+!.env.example
+*.pdf
+profile.local.*
+secrets/
+
+# Saídas do agente
+reports/output/
+screenshots/
+playwright-report/
+
+# Editores
+.vscode/
+.idea/
+.DS_Store
